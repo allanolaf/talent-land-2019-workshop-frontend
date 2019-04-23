@@ -3,6 +3,6 @@ node_js:
   - "7"
 before_script:
   - npm install
-  script:
+script:
   - echo "antes de la construccion"
   - npm build
