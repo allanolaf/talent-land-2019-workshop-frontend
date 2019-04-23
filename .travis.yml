@@ -1,11 +1,8 @@
 language: node_js
 node_js:
   - "7"
-  
   before_script:
-   - npm install
-   
-   
+  - npm install
   script:
   - echo "antes de la construccion"
   - npm build
