@@ -6,9 +6,10 @@ before_script:
 script:
   - echo "antes de la construccion"
   - npm run build
-  -ls
+  - ls
 deploy:
   provider: pages
+  local-dir: build/
   skip_cleanup: true
   github_token $GITHUB_TOKEN
   keep_history: true
